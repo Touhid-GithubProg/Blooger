@@ -1,6 +1,6 @@
-/******Fonts Css******/
+/************Fonts Css**************/
 @import url("../css/fonts.css");
-/*********Root Area*********/
+/*************Root Area*************/
 :root {
   /* ***Fonts Variable*** */
   --abel: 'Abel',cursive;
@@ -18,11 +18,15 @@
   --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
 }
 
-/*********Basic Changes*********/
+/*************Basic Changes************/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
 }
 
 a {
@@ -41,4 +45,52 @@ ul {
 .flex-column {
   display: flex;
   flex-direction: column;
+}
+
+/* ***********Header Area************ */
+nav {
+  justify-content: space-between;
+  color: var(--text-gray);
+}
+
+.logo-area {
+  padding-left: 1rem;
+}
+
+.logo-area .logo-txt {
+  font-size: 2.5rem;
+  font-family: var(--lexend);
+  color: var(--text-gray);
+  padding: 1.5rem;
+  display: inline-block;
+}
+
+.nav-menu .nav-items :hover {
+  background-color: var(--midnight);
+  color: var(--white);
+}
+
+.nav-menu .nav-items .nav-links {
+  font-family: var(--abel);
+  font-size: 1.7rem;
+  padding: 1.5rem;
+  letter-spacing: .1rem;
+  display: inline-block;
+  transition: .3s;
+}
+
+.social-area {
+  padding-right: 2rem;
+}
+
+.social-area a {
+  font-size: 2rem;
+  padding: .5rem;
+  margin-top: 1.5rem;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.social-area a :hover {
+  color: var(--text-light);
 }
