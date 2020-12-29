@@ -56,7 +56,6 @@ h1 {
 
 /* ***********Header Area************ */
 .navbar {
-  min-height: 8rem;
   justify-content: space-between;
   color: var(--text-gray);
 }
@@ -71,6 +70,20 @@ h1 {
   color: var(--text-gray);
   padding: 1.5rem;
   display: inline-block;
+}
+
+.toggle-btn {
+  position: fixed;
+  top: 1.8rem;
+  right: 2rem;
+  display: none;
+}
+
+.toggle-btn i {
+  font-size: 3rem;
+  display: block;
+  cursor: pointer;
+  color: var(--text-gray);
 }
 
 .nav-menu .nav-items {

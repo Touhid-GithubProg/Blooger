@@ -3,6 +3,10 @@
     flex-direction: column;
     max-height: 8rem;
     overflow: hidden;
+    transition: 1s;
+  }
+  .toggle-btn {
+    display: block;
   }
   .nav-menu {
     flex-direction: column;
@@ -12,6 +16,10 @@
   }
   .nav-menu .nav-items .nav-links {
     display: block;
+  }
+  .navCollapse {
+    max-height: 50rem;
+    transition: 1s;
   }
   .social-area {
     text-align: center;

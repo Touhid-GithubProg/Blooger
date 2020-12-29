@@ -21,6 +21,7 @@
     --sky: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
 }
 /*************Basic Changes************/
+
 *{
     margin: 0;
     padding: 0;
@@ -49,9 +50,10 @@ h1{
     display: flex;
     flex-direction: column;
 }
-/* ***********Header Area************ */
+
+    /* ***********Header Area************ */
+
 .navbar{
-    min-height: 8rem;
     justify-content: space-between;
     color: var(--text-gray);
 }
@@ -65,7 +67,18 @@ h1{
         display: inline-block;
     }
 }
-
+.toggle-btn{
+    position: fixed;
+    top: 1.8rem;
+    right: 2rem;
+    display: none;
+    i{
+        font-size: 3rem;
+        display: block;
+        cursor: pointer;
+        color: var(--text-gray);
+    }
+}
 .nav-menu{
     .nav-items{
         margin-top: 2rem;
@@ -96,7 +109,9 @@ h1{
         }
     }
 }
-/* ***********Landing Area************ */
+
+    /* ***********Landing Area************ */
+
 .landing-area{
     background: url('../assets/Background-image.png') no-repeat;
     background-size: cover;
@@ -125,4 +140,4 @@ h1{
         }
     }
 }
-/* ***********Slider Area************ */
+    /* ***********Slider Area************ */
