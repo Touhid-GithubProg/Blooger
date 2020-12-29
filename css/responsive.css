@@ -1,1 +1,24 @@
-/* No CSS */
+@media only screen and (max-width: 800px) {
+  .navbar {
+    flex-direction: column;
+    max-height: 8rem;
+    overflow: hidden;
+  }
+  .nav-menu {
+    flex-direction: column;
+  }
+  .nav-menu .nav-items {
+    text-align: center;
+  }
+  .nav-menu .nav-items .nav-links {
+    display: block;
+  }
+  .social-area {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  .social-area a {
+    padding: 1rem 2rem;
+  }
+}

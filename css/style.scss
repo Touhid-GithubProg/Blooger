@@ -50,7 +50,8 @@ h1{
     flex-direction: column;
 }
 /* ***********Header Area************ */
-nav{
+.navbar{
+    min-height: 8rem;
     justify-content: space-between;
     color: var(--text-gray);
 }
